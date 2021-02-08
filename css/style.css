@@ -1,6 +1,11 @@
-/* CLASSE COLORE */
-#pinkpattern {
+/* IMPOSTAZIONI GENERALI COLONNA */
+[class*="col-"] {
+  min-height: 100px;
   background-color: pink;
-  width: 100px;
-  height: 100px;
+  border: 1px solid white;
+}
+p {
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
 }
