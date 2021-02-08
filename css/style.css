@@ -1,14 +1,32 @@
-/* IMPOSTAZIONI GENERALI COLONNA */
+/* IMPOSTAZIONI GENERALI */
 [class*="col-"] {
   min-height: 200px;
   background-color: pink;
-  border: 1px solid white;
+  border: 1px solid #000;
 }
 p {
   text-align: center;
   line-height: 200px;
   vertical-align: middle;
 }
+section {
+  height: auto;
+}
+/* IMPOSTAZIONI BORDI */
+/* section:nth-of-type(3)[class="col-"] {
+  border-bottom: 2px solid #000;
+} */
+.col-12 {
+  border-right: none;
+}
+/* IMPOSTAZIONE BORDI FOOTER */
+footer [class*="col-"] {
+  border: 3px solid pink;
+}
+footer .col-2:first-child, .col-6:first-child {
+  border-left: 2px solid #000;
+}
+/* IMPOSTAZIONI FOOTER */
 .footdiv {
   background-color: #fc6868;
 }
