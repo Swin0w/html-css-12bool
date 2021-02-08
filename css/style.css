@@ -1,11 +1,22 @@
 /* IMPOSTAZIONI GENERALI COLONNA */
 [class*="col-"] {
-  min-height: 100px;
+  min-height: 200px;
   background-color: pink;
   border: 1px solid white;
 }
 p {
   text-align: center;
-  line-height: 100px;
+  line-height: 200px;
   vertical-align: middle;
+}
+.footdiv {
+  background-color: #fc6868;
+}
+#midfoot-zero {
+  width: 50%;
+  float: left;
+}
+#midfoot-one {
+  width: 50%;
+  float: right;
 }
